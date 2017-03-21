@@ -1,0 +1,40 @@
+h1 {
+    color: #000
+}
+
+button.me {
+    border: none;
+    background-color: #ff45ff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+main {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: justify;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+main>#col-1 button {
+    background-color: red;
+    color: #00ee44;
+}
+
+.featured-columns>#col-2 button {
+    background-color: white;
+    color: #990000;
+}
+
+#col-3 button {
+    background-color: blue;
+    color: #888;
+}
+
